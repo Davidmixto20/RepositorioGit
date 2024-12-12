@@ -107,6 +107,8 @@ namespace RepositorioGit
             }
         }
 
+Yandell
+
         // Método para cargar los contactos en el DataGridView
         private void CargarContactos()
         {
@@ -153,8 +155,5 @@ namespace RepositorioGit
         }
     }
 }
-
-
-
-
+Yandell
 

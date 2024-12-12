@@ -38,89 +38,111 @@
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
+
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
+ Yandell
             this.dgvContactos = new System.Windows.Forms.DataGridView();
+
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+ Yandell
             this.label1.Location = new System.Drawing.Point(23, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
+
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+Yandell
             this.label2.Location = new System.Drawing.Point(23, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
+
             this.label2.TabIndex = 1;
             this.label2.Text = "Apellido";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+ Yandell
             this.label3.Location = new System.Drawing.Point(23, 139);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
+
             this.label3.TabIndex = 2;
             this.label3.Text = "Telefono";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+ Yandell
             this.label4.Location = new System.Drawing.Point(23, 170);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 13);
+
             this.label4.TabIndex = 3;
             this.label4.Text = "Correo";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+ Yandell
             this.label5.Location = new System.Drawing.Point(23, 201);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 13);
+
             this.label5.TabIndex = 4;
             this.label5.Text = "Direccion";
             // 
             // txtNombre
             // 
+ Yandell
             this.txtNombre.Location = new System.Drawing.Point(82, 77);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(290, 20);
+
             this.txtNombre.TabIndex = 5;
             // 
             // txtApellido
             // 
+ Yandell
             this.txtApellido.Location = new System.Drawing.Point(82, 106);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(290, 20);
+
             this.txtApellido.TabIndex = 6;
             // 
             // txtTelefono
             // 
+ Yandell
             this.txtTelefono.Location = new System.Drawing.Point(82, 132);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(290, 20);
+
             this.txtTelefono.TabIndex = 7;
             // 
             // txtCorreo
             // 
+ Yandell
             this.txtCorreo.Location = new System.Drawing.Point(82, 163);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(290, 20);
+
             this.txtCorreo.TabIndex = 8;
             // 
             // txtDireccion
             // 
+ Yandell
             this.txtDireccion.Location = new System.Drawing.Point(82, 198);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(290, 20);
@@ -173,10 +195,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvContactos);
+
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
+
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.txtTelefono);
@@ -208,11 +232,14 @@
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.TextBox txtDireccion;
+
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnBuscar;
+ Yandell
         private System.Windows.Forms.DataGridView dgvContactos;
+
     }
 }
 
