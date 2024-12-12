@@ -142,5 +142,29 @@ namespace RepositorioGit
             }
         }
 
+        // Método para cargar los contactos en el DataGridView
+        private void CargarContactos()
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM Contactos";
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                dgvContactos.DataSource = dt;
+            }
+        }
+
+        // Método para limpiar los campos de texto
+        private void LimpiarCampos()
+        {
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtTelefono.Clear();
+            txtCorreo.Clear();
+            txtDireccion.Clear();
+            contactoID = -1;
+            btnAgregar.Text = "Agregar";
+        }
     }
 }
