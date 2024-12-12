@@ -107,9 +107,6 @@ namespace RepositorioGit
             }
         }
 
-
-        // David
-
         // Método para cargar los contactos en el DataGridView
         private void CargarContactos()
         {
@@ -156,15 +153,6 @@ namespace RepositorioGit
         }
     }
 }
-        //Aaron
-
-// Método para buscar contactos por nombre o apellido (pon tu codigo abajo de esto)
-
-
-
-//Starling
-//Método para limpiar los campos de texto (pon tu codigo abajo de esto)
-
 
 
 
